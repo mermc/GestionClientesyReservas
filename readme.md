@@ -90,22 +90,10 @@ try {
 }
 ?>
 ```
-
-> **Nota:** Se recomienda reemplazar las credenciales por variables de entorno en producción y eliminar el `echo` en producción para mayor seguridad.
-
+> **Nota:** En este caso he dejado el `echo` para comprobar que todo iba correctamente.
 ---
 
-## 4. Permisos de ficheros recomendados
-
-```bash
-sudo chown -R www-data:www-data /var/www/milanmc.me/gestionClientes
-sudo find /var/www/milanmc.me/gestionClientes -type d -exec chmod 755 {} \;
-sudo find /var/www/milanmc.me/gestionClientes -type f -exec chmod 644 {} \;
-```
-
----
-
-## 5. Estructura y funcionamiento de la aplicación
+## 4. Estructura y funcionamiento de la aplicación
 
   **Creación base de datos:** 
   Creación de la base de datos y script
