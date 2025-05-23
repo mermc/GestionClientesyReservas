@@ -111,35 +111,43 @@ sudo find /var/www/milanmc.me/gestionClientes -type f -exec chmod 644 {} \;
   Creación de la base de datos y script
   - ![**Landing**](imagen1.png "BD")
 
-- **Landing page (index.php):** 
-  Página principal con botones para acceder a la gestión de Clientes o Reservas. 
+- **Dominio** 
+  Página principal de milanmc.me en la cual escogemos ver el proyecto Gestión de clientes
   - ![Landing](imagen2.png "Página de inicio")
+
+- **Conexion (conexion.php):** 
+  Contenido Conexion
+  - ![Conexion](imagen3.png "Conexion")
+ 
+- **Gestión de Clientes y Reservas (index.php):** 
+  Página principal del proyecto para acceder a Clientes o Reservas
+  - ![Index](imagen4.png "Index")
 
 - **Gestión de Clientes (clientes.php):** 
   Listado de clientes con opciones para crear, editar, eliminar y buscar clientes. 
-  _[aquí puede ir una captura de pantalla]_
+  - ![Clientes](imagen5.png "Clientes")
 
-- **Añadir nuevo cliente:** 
+- **Añadir nuevo cliente (crear_cliente.php):** 
   Botón en la sección de clientes para agregar uno nuevo. 
-  _[aquí puede ir una captura de pantalla]_
+  - ![Añadir Clientes](imagen7.png " Añadir Clientes")
 
 - **Gestión de Reservas (reservas.php/todasLasReservas.php):** 
   Listado de reservas, posibilidad de crear, editar o eliminar reservas asociadas a clientes. 
-  _[aquí puede ir una captura de pantalla]_
+  - ![Reservas](imagen8.png "Reservas")
 
 - **Búsqueda:** 
-  Permite buscar clientes por nombre o apellidos. 
-  _[aquí puede ir una captura de pantalla]_
+  Permite buscar clientes por nombre o apellidos y reservas. 
+   - ![Busqueda](imagen10.png "Busqueda")
+ 
+-  **Crear reservas para un cliente (crear_reserva.php):** 
+  Desde la lista de clientes se crea una nueva reserva en "crear reserva". 
+  - ![Reservas](imagen11.png "Crear Reserva")
 
-- **Ver reservas de un cliente:** 
+- **Ver reservas de un cliente (reservas.php):** 
   Desde la lista de clientes se puede acceder a las reservas de ese cliente. 
-  _[aquí puede ir una captura de pantalla]_
+  - ![Reservas](imagen13.png "Reservas de un cliente")
 
 - **CRUD completo:** 
   La aplicación permite crear, leer, actualizar y eliminar tanto clientes como reservas de manera sencilla y visual, usando formularios PHP conectados a la base de datos mediante PDO.
 
 ---
-
-## 7. Notas adicionales
-
-- **Se utiliza PDO (PHP Data Objects) en todos los scripts para la gestión de la base de datos por seguridad y facilidad de uso.**
