@@ -109,7 +109,7 @@ sudo find /var/www/milanmc.me/gestionClientes -type f -exec chmod 644 {} \;
 
 - **Landing page (index.php):** 
   Página principal con botones para acceder a la gestión de Clientes o Reservas. 
-  `(imagen1.png)`.
+  !(imagen1.png).
 
 - **Gestión de Clientes (clientes.php):** 
   Listado de clientes con opciones para crear, editar, eliminar y buscar clientes. 
