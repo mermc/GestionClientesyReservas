@@ -107,9 +107,13 @@ sudo find /var/www/milanmc.me/gestionClientes -type f -exec chmod 644 {} \;
 
 ## 5. Estructura y funcionamiento de la aplicación
 
+  **Creación base de datos:** 
+  Creación de la base de datos y script
+  - ![**Landing**](imagen1.png "BD")
+
 - **Landing page (index.php):** 
   Página principal con botones para acceder a la gestión de Clientes o Reservas. 
-  !(imagen1.png).
+  - ![Landing](imagen2.png "Página de inicio")
 
 - **Gestión de Clientes (clientes.php):** 
   Listado de clientes con opciones para crear, editar, eliminar y buscar clientes. 
